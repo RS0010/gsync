@@ -1,3 +1,3 @@
-module github.com/RS0010/gsync
+module github.com/rsooio/gsync
 
 go 1.18
