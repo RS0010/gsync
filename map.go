@@ -27,7 +27,6 @@ import (
 // The zero Map is empty and ready for use. A Map must not be copied after first use.
 type Map[K comparable, V any] struct {
 	mu sync.Mutex
-	sync.Map
 
 	// read contains the portion of the map's contents that are safe for
 	// concurrent access (with or without mu held).
